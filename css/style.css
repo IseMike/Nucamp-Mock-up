@@ -1,16 +1,19 @@
-/*
-#fa8f1d tangerine color
-*/
-
 .jumbotron {
     margin: 0;
     padding: 20px;
-    background-color: #003049;
+    background-color: #0a0908;
+    border-style: solid;
+    border-color: #9d263e;
 }
 
-h1, h2, h3{
-    color: #D62828;
-    background-color:#003049;
+h1, h3 {
+    color: #9d263e;
+    background-color: #0a0908;
+} 
+
+h2{
+    color: #9d263e;
+    background-color:#0a0908;
 }
 
 body h2 {
@@ -18,19 +21,28 @@ body h2 {
 }
 
 .navbar {
-    background-color: #003049;
+    background-color: #f2f4f3;
+    background-color: #0a0908;
+    border-style: solid;
+    border-color: #9d263e;
 }
 
 li{
-    padding-left: 50px;
+    padding: 0 25px;
 }
 
 body{
-    background-color: white;
+    background-color: #f2f4f3;
+    background-image: url("../img/inside_1.jpg");
+    background-size: cover;
 }
 
 .row-content {
     margin: 20px;
     padding: 50px 0;
     min-height: 200px;
+}
+
+#resNavbar a {
+    color: #d13454;
 }
