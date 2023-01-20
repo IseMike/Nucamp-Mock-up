@@ -6,18 +6,23 @@
     border-color: #9d263e;
 }
 
-h1, h3 {
+h1, h2, h3{
     color: #9d263e;
     background-color: #0a0908;
 } 
 
-h2{
-    color: #9d263e;
-    background-color:#0a0908;
+p {
+    color: #9d263e
 }
 
 body h2 {
     padding: 50px;
+}
+
+.row-content h3 {
+    padding: 10px;
+    width: fit-content;
+
 }
 
 .navbar {
@@ -45,4 +50,20 @@ body{
 
 #resNavbar a {
     color: #d13454;
+}
+
+img {
+    background-color: #0a0908;
+    border-style: solid;
+    border-color:#0a0908;
+}
+
+.media {
+    background-color: #0a0908;
+    border-style: solid;
+    border-color: #9d263e;
+}
+
+.menu-item-row {
+    padding: 0;
 }
