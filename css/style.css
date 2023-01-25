@@ -67,3 +67,12 @@ img {
 .menu-item-row {
     padding: 0;
 }
+
+.btn-link, address {
+    background-color:#0a0908;
+    color:#d13454;
+}
+
+#contact {
+    padding: 20px;
+}
