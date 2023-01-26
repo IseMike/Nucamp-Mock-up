@@ -22,12 +22,12 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-sm-5">
+                <div class="col-sm-12">
                     <h1>Restaurant Name</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-8">
                     <h3>Bar & Grill</h3>
                 </div>
             </div>
@@ -49,22 +49,92 @@
 
     <div class="row row-content">
         <div class="col-sm-4">
-            <br/>
-            <h3 id="contact">Contact us</h3>
-            <a role="button" class="btn btn-link" href="#"><i class="fa fa-phone"></i>1-111-111-1111</a>
-            <a role="button" class="btn btn-link" href="#"><i class="fa fa-envelope-o"></i>Restaurant Name@business.co</a>
-            <br/>
+            <h3>Contact us</h3>
+            <a role="button" class="btn btn-link" href="#"><i class="fa fa-phone"></i> 1-111-111-1111</a> <br />
+            <a role="button" class="btn btn-link" href="#"><i class="fa fa-envelope-o"></i> Restaurant Name@business.co</a><br/>
             <br/>
         </div>
         <div class="col-sm-4">
             <h3>Our Address</h3>
-            <address>
-                123 Real Street <br/>
-                Real City, NC 11111 <br/>
-                U.S.A.
-            </address>
+            <address>123 Real Street <br/>Real City, NC 11111 <br/>U.S.A.</address>
         </div>
     </div>
+
+    <div class="row row-content">
+        <div class="col-4">
+            <h3>Your Feedback</h3>
+        </div>
+        <div class="col-md-8">
+            <form>
+                <form>
+                    <div class="form-group row">
+                        <div class="col offset-md-2">
+                            <p>Rate us 1-5</p>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="rateOne" name="rateRadios" value="one" />
+                                <label for="rateOne" class="form-check-label">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="rateTwo" name="rateRadios" value="two" />
+                                <label for="rateTwo" class="form-check-label">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="rateThree" name="rateRadios" value="three" />
+                                <label for="rateThree" class="form-check-label">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="rateFour" name="rateRadios" value="four" />
+                                <label for="rateFour" class="form-check-label">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="rateFive" name="rateRadios" value="five" />
+                                <label for="rateFive" class="form-check-label">5</label>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <form>
+                    <div class="form-group row">
+                        <div class="col offset-md-2">
+                            <label for="feedback">Your Feedback</label>
+                            <div class="col-md-10">
+                                <textarea class="form-control" id="feedback" name="feedback" rows="10"></textarea>
+                            </div>
+                            <div class="col">
+                                <br/>
+                                <button type="submit" class="btn btn-danger">Send Feedback</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </form>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-sm-2">
+                    <h5>Pages</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 text-center">
+                    <h5>Socials</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-111-111-1111</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> Restaurant Name@business.co</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 </html>

@@ -6,13 +6,19 @@
     border-color: #9d263e;
 }
 
-h1, h2, h3{
+h1, h2, h3, h5{
     color: #9d263e;
     background-color: #0a0908;
+    font-family: monospace;
 } 
 
-p {
-    color: #9d263e
+p, label {
+    color: #d13454;
+}
+
+textarea {
+    outline-style: solid;
+    outline-color: #d13454
 }
 
 body h2 {
@@ -20,9 +26,11 @@ body h2 {
 }
 
 .row-content h3 {
-    padding: 10px;
     width: fit-content;
+}
 
+.row-content {
+    background-color:#0a0908;
 }
 
 .navbar {
@@ -32,11 +40,8 @@ body h2 {
     border-color: #9d263e;
 }
 
-li{
-    padding: 0 25px;
-}
-
 body{
+    font-family: 'Courier New', Courier, monospace;
     background-color: #f2f4f3;
     background-image: url("../img/inside_1.jpg");
     background-size: cover;
@@ -68,11 +73,23 @@ img {
     padding: 0;
 }
 
-.btn-link, address {
+a, .btn-link, address {
     background-color:#0a0908;
     color:#d13454;
 }
 
-#contact {
-    padding: 20px;
+.site-footer {
+    color:#0a0908;
+    background-color: #0a0908;
+    border-style: solid;
+    border-color:#9d263e;
+}
+
+.media h3, .media img, .media p{
+    min-width: 33.33%;
+}
+
+.fa-fort-awesome {
+    font-size: 100px;
+    color:#9d263e;
 }
